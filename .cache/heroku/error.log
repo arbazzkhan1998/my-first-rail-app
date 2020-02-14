@@ -1,0 +1,8 @@
+2020-02-14T10:48:04.082Z Error: The buildpack https://github.com/bundler/heroku-buildpack-bundler2 is already set on your app.
+2020-02-14T10:48:04.082Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2020-02-14T10:48:04.082Z     at BuildpackCommand.validateUrlNotSet (/usr/local/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/buildpacks.js:74:26)
+2020-02-14T10:48:04.082Z     at async Set.run (/usr/local/lib/heroku/node_modules/@heroku-cli/plugin-buildpacks/lib/commands/buildpacks/set.js:13:9)
+2020-02-14T10:48:04.082Z     at async Set._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2020-02-14T10:48:04.082Z     at async Config.runCommand (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2020-02-14T10:48:04.082Z     at async Main.run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2020-02-14T10:48:04.082Z     at async Main._run (/usr/local/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)

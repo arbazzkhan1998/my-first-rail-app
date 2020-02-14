@@ -119,3 +119,83 @@ Gtk-Message: 15:47:46.745: GtkDialog mapped without a transient parent. This is 
 polkit-agent-helper-1: pam_authenticate failed: Authentication failure
 Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
 Gtk-Message: 15:53:49.289: GtkDialog mapped without a transient parent. This is discouraged.
+[6122:1:0214/162102.425736:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6122:1:0214/162102.427201:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6122:1:0214/162105.422362:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6122:1:0214/162105.423400:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1753:2099:0214/162110.765322:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.165" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/162110.765541:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+Gtk-Message: 16:24:25.331: GtkDialog mapped without a transient parent. This is discouraged.
+[1753:2099:0214/162450.638694:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.166" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/162450.638838:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+Gtk-Message: 16:24:56.644: GtkDialog mapped without a transient parent. This is discouraged.
+[6219:1:0214/162518.676708:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6219:1:0214/162518.678024:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6215:1:0214/162523.097505:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6215:1:0214/162523.098879:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.512857:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.513567:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.564602:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.565937:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.689980:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162526.691307:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162527.530068:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162527.531267:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162527.532538:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6267:1:0214/162527.533604:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+user-open error: Supplied URL scheme "discord" is not allowed
+[1753:2099:0214/162835.030058:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.170" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/162835.030466:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+user-open error: permission denied
+[1753:2099:0214/162850.999695:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.174" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/162851.059190:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1753:2099:0214/163051.084235:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.180" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/163051.084375:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1753:2099:0214/163344.340977:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.181" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/163344.341022:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1753:2099:0214/163516.503470:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.182" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/163516.503981:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[6538:1:0214/163820.268642:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.269694:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.359678:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.360324:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.371203:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.371739:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.374795:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6538:1:0214/163820.377991:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6642:1:0214/163938.541494:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6642:1:0214/163938.544205:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6642:1:0214/163939.155739:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6642:1:0214/163939.156383:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6712:1:0214/164250.068144:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6712:1:0214/164250.069795:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1753:2099:0214/164626.215744:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.184" (uid=1000 pid=1753 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1508 comm="xfce4-power-manager " label="unconfined")
+[1753:2099:0214/164626.215830:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[6941:1:0214/170107.357771:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6941:1:0214/170107.359317:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171439.534156:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171439.541669:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171440.370311:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171440.371267:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171440.500963:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7118:1:0214/171440.503361:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(mousepad:7798): Gtk-WARNING **: 17:22:11.905: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7798): Gtk-WARNING **: 17:22:11.906: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7798): Gtk-WARNING **: 17:22:11.906: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7798): Gtk-WARNING **: 17:22:11.906: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7798): Gtk-WARNING **: 17:22:11.906: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:8059): Gtk-WARNING **: 17:27:49.855: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:8059): Gtk-WARNING **: 17:27:49.855: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:8059): Gtk-WARNING **: 17:27:49.855: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:8059): Gtk-WARNING **: 17:27:49.855: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:8059): Gtk-WARNING **: 17:27:49.855: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version

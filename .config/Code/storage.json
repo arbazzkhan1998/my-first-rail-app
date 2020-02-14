@@ -42,8 +42,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -574,8 +573,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1463,8 +1461,8 @@
             "backupPath": "/home/arbaz/.config/Code/Backups/fbe987e20373021394a2cff6fb16de1c",
             "uiState": {
                 "mode": 1,
-                "x": 760,
-                "y": 49,
+                "x": 711,
+                "y": 104,
                 "width": 679,
                 "height": 869
             }

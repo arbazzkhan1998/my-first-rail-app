@@ -45,6 +45,7 @@
       <property name="names-visible" type="array">
         <value type="string" value="network"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="thunar"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="notification-plugin"/>

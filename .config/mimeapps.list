@@ -1,4 +1,4 @@
 [Added Associations]
 application/json=mousepad.desktop;
-text/plain=code_code.desktop;mousepad.desktop;
+text/plain=mousepad.desktop;code_code.desktop;
 application/x-ruby=mousepad.desktop;

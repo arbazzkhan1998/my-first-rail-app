@@ -1,0 +1,53 @@
+arbaz@arbaz-VirtualBox:~$ git add .
+arbaz@arbaz-VirtualBox:~$ ^C
+arbaz@arbaz-VirtualBox:~$ git commit -m 'updates for heroku deployment'
+[master 4d45a58] updates for heroku deployment
+ 10 files changed, 12 insertions(+), 1 deletion(-)
+arbaz@arbaz-VirtualBox:~$ git commit -m 'updates for heroku deployment'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   .config/Code/Cache/index-dir/the-real-index
+	modified:   snap/chromium/1026/.config/chromium/Default/Current Session
+	modified:   snap/chromium/1026/.config/chromium/Default/Preferences
+
+no changes added to commit
+arbaz@arbaz-VirtualBox:~$ git push origin master
+Counting objects: 32, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (32/32), 91.16 KiB | 3.96 MiB/s, done.
+Total 32 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas: 100% (23/23), completed with 19 local objects.
+To github.com:arbazzkhan1998/my-first-rail-app.git
+   1f96075..4d45a58  master -> master
+arbaz@arbaz-VirtualBox:~$ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+ ›   Error: The buildpack https://github.com/bundler/heroku-buildpack-bundler2 
+ ›   is already set on your app.
+arbaz@arbaz-VirtualBox:~$ 
+arbaz@arbaz-VirtualBox:~$ git push heroku master
+Counting objects: 6347, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6134/6134), done.
+Writing objects: 100% (6347/6347), 255.37 MiB | 5.22 MiB/s, done.
+Total 6347 (delta 1280), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> App not compatible with buildpack: https://github.com/bundler/heroku-buildpack-bundler2
+remote:        More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to fierce-sierra-60542.
+remote: 
+To https://git.heroku.com/fierce-sierra-60542.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/fierce-sierra-60542.git'
+arbaz@arbaz-VirtualBox:~$ heroku run rails db:migrate
+Running rails db:migrate on ⬢ fierce-sierra-60542... up, run.6959 (Free)
+bash: rails: command not found
+arbaz@arbaz-VirtualBox:~$

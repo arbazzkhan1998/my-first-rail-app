@@ -73,12 +73,54 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/arbaz/my_first_rails_app" added="2020-02-14T10:26:55Z" modified="2020-02-14T10:26:55Z" visited="2020-02-14T10:26:56.012859Z">
+  <bookmark href="file:///home/arbaz/my_first_rails_app" added="2020-02-14T10:26:55Z" modified="2020-02-14T10:26:55Z" visited="2020-02-14T10:26:56Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2020-02-14T10:26:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arbaz/Downloads/message%20(1).txt" added="2020-02-14T10:58:57Z" modified="2020-02-14T10:58:57Z" visited="2020-02-14T10:58:57Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2020-02-14T10:58:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arbaz/my_first_rails_app/Gemfile.lock" added="2020-02-14T11:52:11Z" modified="2020-02-14T11:52:11Z" visited="2020-02-14T11:52:12Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2020-02-14T11:52:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/arbaz/odin_on_rails/my_first_rails_app/Gemfile" added="2020-02-14T11:57:49Z" modified="2020-02-14T11:57:49Z" visited="2020-02-14T11:57:50Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2020-02-14T11:57:49Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

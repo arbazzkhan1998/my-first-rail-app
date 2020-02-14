@@ -1,0 +1,15 @@
+2020/02/13-11:06:33.466 5ec Reusing MANIFEST /home/arbaz/snap/chromium/1026/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/02/13-11:06:33.467 5ec Recovering log #3
+2020/02/13-11:06:33.497 5ec Reusing old log /home/arbaz/snap/chromium/1026/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2020/02/13-12:13:26.944 60b1 Level-0 table #5: started
+2020/02/13-12:13:26.949 60b1 Level-0 table #5: 108578 bytes OK
+2020/02/13-12:13:26.951 60b1 Delete type=0 #3
+2020/02/13-15:01:22.381 60b1 Level-0 table #7: started
+2020/02/13-15:01:22.386 60b1 Level-0 table #7: 97042 bytes OK
+2020/02/13-15:01:22.389 60b1 Delete type=0 #4
+2020/02/13-15:11:32.158 60b1 Level-0 table #9: started
+2020/02/13-15:11:32.165 60b1 Level-0 table #9: 90416 bytes OK
+2020/02/13-15:11:32.169 60b1 Delete type=0 #6
+2020/02/13-15:24:52.025 60b1 Level-0 table #11: started
+2020/02/13-15:24:52.032 60b1 Level-0 table #11: 98818 bytes OK
+2020/02/13-15:24:52.035 60b1 Delete type=0 #8

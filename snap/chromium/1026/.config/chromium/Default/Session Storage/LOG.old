@@ -1,0 +1,12 @@
+2020/02/13-11:06:42.522 5eb Reusing MANIFEST /home/arbaz/snap/chromium/1026/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/02/13-11:06:42.523 5eb Recovering log #3
+2020/02/13-11:06:42.601 5eb Reusing old log /home/arbaz/snap/chromium/1026/.config/chromium/Default/Session Storage/000003.log 
+2020/02/13-12:22:53.567 7a1 Level-0 table #5: started
+2020/02/13-12:22:53.572 7a1 Level-0 table #5: 16641 bytes OK
+2020/02/13-12:22:53.575 7a1 Delete type=0 #3
+2020/02/13-15:20:19.461 7a1 Level-0 table #7: started
+2020/02/13-15:20:19.464 7a1 Level-0 table #7: 19293 bytes OK
+2020/02/13-15:20:19.467 7a1 Delete type=0 #4
+2020/02/13-15:34:15.720 7a1 Level-0 table #9: started
+2020/02/13-15:34:15.725 7a1 Level-0 table #9: 18932 bytes OK
+2020/02/13-15:34:15.728 7a1 Delete type=0 #6

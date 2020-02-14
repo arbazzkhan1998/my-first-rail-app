@@ -1,0 +1,377 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/arbaz/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_IN
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/arbaz
+dbus-update-activation-environment: setting USER=arbaz
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/arbaz
+dbus-update-activation-environment: setting HOME=/home/arbaz
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=arbaz
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/arbaz/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1156): xfce4-session-WARNING **: 11:05:38.471: xfsm_manager_load_session: Something wrong with /home/arbaz/.cache/sessions/xfce4-session-arbaz-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1196): GLib-CRITICAL **: 11:05:39.929: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1196): polkit-gnome-1-WARNING **: 11:05:39.930: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:1204): Gtk-WARNING **: 11:05:41.275: Can't set a parent on widget which has a parent
+
+(nm-applet:1204): Gdk-CRITICAL **: 11:05:45.130: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (wrapper-2.0:1303): WARNING **: 11:05:45.167: No outputs have backlight property
+
+(wrapper-2.0:1300): GLib-GIO-CRITICAL **: 11:05:45.236: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1300): GLib-GIO-CRITICAL **: 11:05:45.236: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1300): GLib-GObject-WARNING **: 11:05:45.236: invalid (NULL) pointer instance
+
+(wrapper-2.0:1300): GLib-GObject-CRITICAL **: 11:05:45.236: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1300): Gtk-WARNING **: 11:05:45.236: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1300): Gtk-WARNING **: 11:05:45.252: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1303): Gtk-WARNING **: 11:05:45.960: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1304): Gtk-WARNING **: 11:05:46.009: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1282): Gtk-WARNING **: 11:05:47.304: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+[1379:1379:0213/110632.136524:ERROR:edid_parser.cc(102)] Too short EDID data: manufacturer id
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+[1523:1523:0213/110638.625418:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+[1544:7:0213/110638.908465:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[1544:1:0213/110639.723439:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1544:1:0213/110639.724157:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.961495:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.962185:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.966068:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.967693:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.969630:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.970644:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.974745:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1604:1:0213/110642.976268:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.359829:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.361094:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.836474:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.838023:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.840827:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.841306:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.841872:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1551:1:0213/111003.844190:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1869:1:0213/111114.640523:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1869:1:0213/111114.652277:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1868:1:0213/111119.181344:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1868:1:0213/111119.181935:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.426856:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.427574:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.435840:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.436707:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.440440:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.443284:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.593708:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1906:1:0213/111122.594883:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112744.619399:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112744.621699:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.203688:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.204305:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.206736:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.207134:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.243632:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2130:1:0213/112745.244422:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2178:1:0213/113811.331688:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2178:1:0213/113811.333726:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2178:1:0213/113811.336456:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2178:1:0213/113811.337585:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[2178:1:0213/113813.000859:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1379:1533:0213/113815.042725:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.79" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113815.042950:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/113815.125928:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.80" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113815.125980:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/113821.895853:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.81" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113821.895900:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/113828.271238:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.82" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113828.271324:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/113845.387967:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.83" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113845.388130:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/113914.768766:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.84" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/113914.768817:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114151.807867:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.85" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114151.807975:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[22740:1:0213/114217.250428:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[22740:1:0213/114217.251290:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1379:1533:0213/114346.072616:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.86" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114346.072675:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114346.202198:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.87" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114346.202252:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114350.445206:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.88" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114350.445274:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114351.671813:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.89" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114351.672090:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114355.744713:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.90" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114355.744797:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114355.823190:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.91" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114355.823241:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114405.250090:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.92" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114405.250134:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114406.707586:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.93" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114406.707692:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114506.973316:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.94" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114506.973424:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114507.048935:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.95" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114507.049057:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[23399:1:0213/114553.961726:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[23399:1:0213/114553.962824:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[23399:1:0213/114553.965423:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[23399:1:0213/114553.966081:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1379:1533:0213/114556.159152:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.96" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114556.159198:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114618.910143:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.97" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114618.910226:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114618.919050:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.98" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114618.919098:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114621.454344:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.99" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114621.454472:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114654.235612:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.100" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114654.235712:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114657.035912:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.101" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114657.035986:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114658.719907:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.102" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114658.719999:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[23603:1:0213/114728.802283:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[23603:1:0213/114728.803322:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1379:1533:0213/114729.483188:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.103" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114729.483235:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114822.323424:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.104" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114822.323518:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114824.739095:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.105" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114824.739176:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114923.915866:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.106" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114923.915969:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/114924.348204:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.107" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/114924.348264:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[24424:1:0213/115451.599294:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24424:1:0213/115451.600114:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24424:1:0213/115451.600943:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24424:1:0213/115451.601400:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24470:1:0213/115720.478719:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24470:1:0213/115720.479458:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24469:1:0213/115724.866748:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24469:1:0213/115724.867425:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115726.918962:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115726.919806:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115726.962856:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115726.963460:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.060806:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.061300:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.814533:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.816285:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.827713:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24505:1:0213/115727.828394:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24577:1:0213/115855.211184:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24577:1:0213/115855.211856:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24577:1:0213/115855.212979:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24577:1:0213/115855.213469:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24531:1:0213/120651.159359:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24531:1:0213/120651.160047:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24531:1:0213/120651.161654:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24531:1:0213/120651.162371:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24578:1:0213/120908.248678:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24578:1:0213/120908.249306:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24578:1:0213/120908.250329:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24578:1:0213/120908.250910:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24683:1:0213/120910.948434:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24683:1:0213/120910.949095:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24683:1:0213/120910.950201:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24683:1:0213/120910.950720:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24695:1:0213/121301.028495:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24695:1:0213/121301.029229:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24695:1:0213/121301.031324:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24695:1:0213/121301.033991:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24730:1:0213/121319.664346:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24730:1:0213/121319.665186:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24730:1:0213/121319.666752:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24730:1:0213/121319.667227:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24742:1:0213/121619.193328:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24742:1:0213/121619.194159:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24742:1:0213/121619.195355:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24742:1:0213/121619.195860:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24808:1:0213/121846.250419:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24808:1:0213/121846.252743:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24808:1:0213/121846.254294:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24808:1:0213/121846.254822:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24967:1:0213/122239.026177:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24967:1:0213/122239.027416:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24966:1:0213/122243.375271:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[24966:1:0213/122243.375895:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[25018:1:0213/122310.410829:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"MediaSource endOfStream before demuxer initialization completes (before HAVE_METADATA) is treated as an error. This may also occur as consequence of other MediaSource errors before HAVE_METADATA."}
+[25184:1:0213/131704.563044:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[25184:1:0213/131704.563864:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6976:1:0213/132537.296018:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6976:1:0213/132537.298041:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6975:1:0213/132541.664984:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6975:1:0213/132541.665591:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1379:1533:0213/132734.915202:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.110" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/132734.915286:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/132759.635831:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.111" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/132759.635933:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133019.087937:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.112" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133019.087991:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133107.983207:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.113" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133107.983263:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133126.129245:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.114" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133126.129312:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133130.439638:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.115" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133130.439796:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133203.497030:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133203.497111:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133214.636262:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.117" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133214.636437:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133225.217817:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.118" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133225.217886:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133229.272605:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.119" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133229.272696:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133230.550419:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.120" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133230.550717:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133236.185197:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.121" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133236.185318:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133238.146609:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.122" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133238.146696:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133239.395086:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.123" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133239.395183:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133241.265588:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.124" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133241.265671:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133253.618336:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.125" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133253.618441:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133302.689291:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.126" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133302.689381:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133304.571561:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.127" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133304.571727:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133307.628748:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.128" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133307.628866:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[1379:1533:0213/133308.403255:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.129" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133308.403334:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+[7011:1:0213/133309.122225:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"MediaSource endOfStream before demuxer initialization completes (before HAVE_METADATA) is treated as an error. This may also occur as consequence of other MediaSource errors before HAVE_METADATA."}
+[7011:1:0213/133309.125806:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"MediaSource endOfStream before demuxer initialization completes (before HAVE_METADATA) is treated as an error. This may also occur as consequence of other MediaSource errors before HAVE_METADATA."}
+[1379:1533:0213/133317.162634:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.PowerManagement.Inhibit.Inhibit: object_path= /org/freedesktop/PowerManagement/Inhibit: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.130" (uid=1000 pid=1379 comm="/snap/chromium/1026/usr/lib/chromium-browser/chrom" label="snap.chromium.chromium (enforce)") interface="org.freedesktop.PowerManagement.Inhibit" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.PowerManagement" (uid=1000 pid=1180 comm="xfce4-power-manager " label="unconfined")
+[1379:1533:0213/133317.162715:ERROR:power_save_blocker_linux.cc(373)] No response to Inhibit() request!
+
+(xfce4-terminal:2033): Gdk-CRITICAL **: 14:51:16.727: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+(mousepad:7962): Gtk-WARNING **: 14:56:33.208: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7962): Gtk-WARNING **: 14:56:33.209: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7962): Gtk-WARNING **: 14:56:33.209: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7962): Gtk-WARNING **: 14:56:33.209: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7962): Gtk-WARNING **: 14:56:33.209: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7970): Gtk-WARNING **: 14:57:02.425: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7970): Gtk-WARNING **: 14:57:02.425: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7970): Gtk-WARNING **: 14:57:02.425: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7970): Gtk-WARNING **: 14:57:02.425: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7970): Gtk-WARNING **: 14:57:02.425: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7978): Gtk-WARNING **: 14:57:24.325: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7978): Gtk-WARNING **: 14:57:24.325: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7978): Gtk-WARNING **: 14:57:24.325: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7978): Gtk-WARNING **: 14:57:24.325: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7978): Gtk-WARNING **: 14:57:24.325: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7985): Gtk-WARNING **: 14:57:29.585: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7985): Gtk-WARNING **: 14:57:29.585: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7985): Gtk-WARNING **: 14:57:29.585: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7985): Gtk-WARNING **: 14:57:29.585: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7985): Gtk-WARNING **: 14:57:29.585: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7992): Gtk-WARNING **: 14:57:36.360: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7992): Gtk-WARNING **: 14:57:36.360: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7992): Gtk-WARNING **: 14:57:36.360: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7992): Gtk-WARNING **: 14:57:36.360: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:7992): Gtk-WARNING **: 14:57:36.361: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+Fontconfig error: Cannot load default config file: No such file: (null)
+[8872:1:0213/151331.275666:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.276260:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.276892:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.277310:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.277920:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.278471:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.279166:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[8872:1:0213/151331.279542:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Gtk-Message: 15:15:46.315: GtkDialog mapped without a transient parent. This is discouraged.
+[9010:1:0213/151738.907504:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9010:1:0213/151738.919541:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9009:1:0213/151747.912577:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9009:1:0213/151747.913184:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9243:1:0213/152531.148866:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9243:1:0213/152531.150264:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.901803:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.903910:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.904880:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.905366:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.906110:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9309:1:0213/152634.906532:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9654:1:0213/153327.014614:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9654:1:0213/153327.015632:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9653:1:0213/153335.602533:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9653:1:0213/153335.603518:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9750:1:0213/153502.370045:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9750:1:0213/153502.371652:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9749:1:0213/153509.926784:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9749:1:0213/153509.927959:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9792:1:0213/153513.192301:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[9792:1:0213/153513.193091:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

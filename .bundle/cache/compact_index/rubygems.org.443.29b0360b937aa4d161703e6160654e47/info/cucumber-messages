@@ -23,3 +23,4 @@
 9.0.1 json:>= 2.3.0&~> 2.3,protobuf-cucumber:>= 3.10.4&~> 3.10|checksum:c808e83f4bc2db55e327303961f0d49202a6b070706417fbbea5c7537df44569,ruby:>= 2.3
 9.0.2 json:>= 2.3.0&~> 2.3,protobuf-cucumber:>= 3.10.4&~> 3.10|checksum:181b74e10365987086006b15befc77d6ad8ca74a8f39ac18fa8d4693feb3b3ad,ruby:>= 2.3
 9.0.3 json:>= 2.3.0&~> 2.3,protobuf-cucumber:>= 3.10.4&~> 3.10|checksum:ef2098634e07ba0e15aa0de0f21a66e81e0d85a478fead9a9b074e3d004ae896,ruby:>= 2.3
+10.0.1 json:>= 2.3.0&~> 2.3,protobuf-cucumber:>= 3.10.8&~> 3.10|checksum:52590e64bf93776aae62f7ce284c8d41a7f7601af3da0ed9d1328d7faf328475,ruby:>= 2.3

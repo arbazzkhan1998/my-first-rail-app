@@ -73,4 +73,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/arbaz/my_first_rails_app" added="2020-02-14T10:26:55Z" modified="2020-02-14T10:26:55Z" visited="2020-02-14T10:26:56.012859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2020-02-14T10:26:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

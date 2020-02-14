@@ -82,3 +82,40 @@ ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusExceptio
 [2434:1:0214/124519.220491:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 [2434:1:0214/124519.230752:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
 [2434:1:0214/124519.236210:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4055:1:0214/153517.220717:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4055:1:0214/153517.222278:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[3834:1:0214/153517.825417:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[3834:1:0214/153517.825860:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[3834:1:0214/153517.826038:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[3834:1:0214/153517.826179:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[3834:1:0214/153517.826238:ERROR:rtc_peer_connection_handler.cc(2446)] Failed to create native session description. Type: "offer" SDP: "v=0\r\no=- 8029656668815849052 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 9 UDP/TLS/RTP/SAVPF 119\r\nc=IN IP4 0.0.0.0\r\nb=AS:30\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:ozVw\r\na=ice-pwd:ZfC2cHUD1qVEkNwe/Yc/n0oj\r\na=ice-options:trickle\r\na=fingerprint:sha-256 EE:BE:13:3A:6F:CD:9D:99:23:DB:ED:FA:BE:75:95:2C:E4:48:FA:B4:92:66:FB:ED:93:C9:5B:70:87:DE:9A:47\r\na=setup:actpass\r\na=mid:0\r\na=sendrecv\r\na=msid: \r\na=rtcp-mux\r\na=rtpmap:119 google-data/90000\r\na=ssrc:1428458978 cname:ovTArfSU6MR8tI+e\r\na=ssrc:1428458978 msid:- \r\na=ssrc:1428458978 mslabel:-\r\na=ssrc:1428458978 label:\r\n"
+[3834:1:0214/153517.826652:ERROR:rtc_peer_connection_handler.cc(1301)] "Failed to parse SessionDescription. a=msid:  Missing track ID in msid attribute."
+[4055:1:0214/153622.189813:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4055:1:0214/153622.194096:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4101:1:0214/153634.022450:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4101:1:0214/153634.023401:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4100:1:0214/153638.351846:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4100:1:0214/153638.352440:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.138890:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.139843:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.190038:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.190665:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.279141:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153642.279674:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153643.322424:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153643.323206:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153643.324617:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153643.325429:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153653.500595:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4141:1:0214/153653.501476:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[4200:1:0214/153658.656118:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[4200:1:0214/153658.657287:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[4200:1:0214/153658.657604:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[4200:1:0214/153658.657733:ERROR:webrtc_sdp.cc(402)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+[4200:1:0214/153658.657787:ERROR:rtc_peer_connection_handler.cc(2446)] Failed to create native session description. Type: "offer" SDP: "v=0\r\no=- 4395361097924433088 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 9 UDP/TLS/RTP/SAVPF 119\r\nc=IN IP4 0.0.0.0\r\nb=AS:30\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:pMjG\r\na=ice-pwd:PnD98BsAPupxwit7MH4Uyv7h\r\na=ice-options:trickle\r\na=fingerprint:sha-256 8F:3B:D4:A7:4F:FB:17:B4:12:CB:4D:97:25:4A:16:04:86:CF:59:B2:7B:7F:3F:93:4C:5D:57:E5:BB:D6:32:DE\r\na=setup:actpass\r\na=mid:0\r\na=sendrecv\r\na=msid: \r\na=rtcp-mux\r\na=rtpmap:119 google-data/90000\r\na=ssrc:3755814192 cname:USJ4Z2GHNQx5HoiI\r\na=ssrc:3755814192 msid:- \r\na=ssrc:3755814192 mslabel:-\r\na=ssrc:3755814192 label:\r\n"
+[4200:1:0214/153658.657835:ERROR:rtc_peer_connection_handler.cc(1301)] "Failed to parse SessionDescription. a=msid:  Missing track ID in msid attribute."
+[1753:2017:0214/153739.776025:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Gtk-Message: 15:47:46.745: GtkDialog mapped without a transient parent. This is discouraged.
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
+Gtk-Message: 15:53:49.289: GtkDialog mapped without a transient parent. This is discouraged.
